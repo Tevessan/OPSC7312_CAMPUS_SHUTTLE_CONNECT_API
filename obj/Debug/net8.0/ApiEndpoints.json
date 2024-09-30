@@ -32,45 +32,19 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "CampusShuttleAPI.Controllers.RegisterController",
-    "Method": "RegisterForShuttle",
-    "RelativePath": "api/Register",
+    "ContainingType": "CampusShuttleAPI.Controllers.BookingController",
+    "Method": "PostBooking",
+    "RelativePath": "api/Booking",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
-        "Type": "CampusShuttleAPI.Model.DTO.RegisterShuttleDTO",
+        "Name": "bookingDTO",
+        "Type": "CampusShuttleAPI.Model.DTO.BookingDTO",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CampusShuttleAPI.Controllers.ShuttleController",
-    "Method": "AddShuttle",
-    "RelativePath": "api/Shuttle",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "model",
-        "Type": "CampusShuttleAPI.Model.DTO.ShuttleDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CampusShuttleAPI.Controllers.ShuttleController",
-    "Method": "GetShuttle",
-    "RelativePath": "api/Shuttle",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
     "ReturnTypes": []
   }
 ]

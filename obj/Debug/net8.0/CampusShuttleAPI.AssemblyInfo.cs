@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CampusShuttleAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+deb0517a07e5ef479a35d7c71163736094bd5efe")]
 [assembly: System.Reflection.AssemblyProductAttribute("CampusShuttleAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CampusShuttleAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
